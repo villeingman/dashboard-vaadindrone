@@ -36,13 +36,13 @@ public class AboutView extends VerticalLayout implements View {
 
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
-				.setOAuthConsumerKey("SNGrkwrLdr9qOphPFzrJphtMV")
+				.setOAuthConsumerKey("")
 				.setOAuthConsumerSecret(
-						"D8ytzw5JtBZUI2gNpyjqMXzLU9juyLyDUQYJAbANF1oidd5MTw")
+						"")
 				.setOAuthAccessToken(
-						"3037121233-CqNQ646fUnV2JihETeaqjCe81PtCJO58IQdzaBr")
+						"")
 				.setOAuthAccessTokenSecret(
-						"f8bVsk0cADBamxfg2bLAVkFLAt7Hu7JIFm95wMHdFQyfN");
+						"");
 		twitterFactory = new TwitterFactory(cb.build());
 		twitter = twitterFactory.getInstance();
 
